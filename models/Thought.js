@@ -43,8 +43,8 @@ const ReactionSchema = new Schema(
           thoughtText: {
             type: String,
             required: "Thought is Required",
-            minlength: 15,
-            maxlength: 300,
+            minlength: 10,
+            maxlength: 280,
           },
       
           createdAt: {
