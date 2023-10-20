@@ -22,7 +22,7 @@ getThoughtById({ params }, res) {
     Thought.findOne({ _id: params.id })
     .populate({
         path: 'reactions',
-        select: '-__v'
+        select: '-__v' // Exclude the '__v' field from the populated data
     })
     .select('-__v')
     .then(dbThoughtData => {
