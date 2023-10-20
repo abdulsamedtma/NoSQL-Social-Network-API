@@ -37,13 +37,13 @@ const ReactionSchema = new Schema(
           id: false,
         }
       );
-      
+      // Thought Schema
       const ThoughtSchema = new Schema(
         {
           thoughtText: {
             type: String,
             required: "Thought is Required",
-            minlength: 10,
+            minlength: 10, // Minimum length of 1 character
             maxlength: 280,
           },
       
