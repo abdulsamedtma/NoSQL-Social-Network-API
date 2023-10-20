@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // Wait for the database connection to open
-db.once("open", () => {
+db.once('open', () => {
   // Start the Express server and listen on the specified port
   app.listen(PORT, () => {
     // Log a message to indicate that the API server is running on the chosen port
