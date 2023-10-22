@@ -38,4 +38,3 @@ const User = model('User', UserSchema); // Create the User model using the UserS
 module.exports = User; // Export the User model
 
 
-
