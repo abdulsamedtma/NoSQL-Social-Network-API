@@ -120,7 +120,7 @@ Thanks to my tutor for explaining some concepts that enhanced my understanding a
 
 ## Walkthrough Video
 
-To see this application in action, please check out our [Walkthrough Video]() that demonstrates the functionality and showcases how it meets all the acceptance criteria.
+To see this application in action, please check out our [Walkthrough Video](https://drive.google.com/file/d/1us6hxSA7T9spF1S8OWd_p2TAPX0EaXQg/view) that demonstrates the functionality and showcases how it meets all the acceptance criteria.
 
 ## Questions
 
